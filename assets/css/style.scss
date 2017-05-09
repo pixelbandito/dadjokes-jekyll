@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html {
+    height: 100%;
+    font-size: 10px;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 1.4rem;
+    background: #efefef;
+    color: #766847;
+    font-family: 'Nunito', 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #54421D;
+    font-family: 'Monoton', 'helvetica neue', helvetica, arial, sans-serif, san-serif;
+}
+
+a,
+a:link,
+a:hover,
+a:focus,
+a:visited {
+    color: #1A254F;
+}
+
+.rss-subscribe {
+    display: none;
+}
+
+.post-list > li,
+.post {
+    padding: 10px 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.post-list > li > .post-meta {
+    color: #999;
+}
